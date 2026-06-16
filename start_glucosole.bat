@@ -1,7 +1,7 @@
 @echo off
-REM GlycoSole Recorder starten (Doppelklick)
+REM GlucoSole Recorder starten (Doppelklick)
 cd /d "%~dp0"
-python glycosole_recorder.py
+python glucosole_recorder.py
 REM Fenster offen lassen, falls ein Fehler kam
 if errorlevel 1 (
     echo.

@@ -23,7 +23,7 @@ const unsigned long INTERVAL = 20;   // ms pro Messung
 #define SERVICE_UUID "6f000001-b5a3-f393-e0a9-e50e24dcca9e"
 #define DATA_UUID    "6f000002-b5a3-f393-e0a9-e50e24dcca9e"   // NOTIFY: Messwerte
 #define CMD_UUID     "6f000003-b5a3-f393-e0a9-e50e24dcca9e"   // WRITE:  s / p
-#define DEVICE_NAME  "GlycoSole-Pressure"
+#define DEVICE_NAME  "GlucoSole-Pressure"
 
 // ── Status ────────────────────────────────────────────────
 bool          running         = false;

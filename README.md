@@ -1,6 +1,6 @@
-# GlycoSole Recorder, Bedienungsanleitung
+# GlucoSole Recorder, Bedienungsanleitung
 
-Mit diesem Programm nimmst du die Druckdaten der GlycoSole-Sohle auf. Es zeigt die
+Mit diesem Programm nimmst du die Druckdaten der GlucoSole-Sohle auf. Es zeigt die
 sechs Sensoren live an und speichert alles in eine Tabelle (CSV). Du musst nichts
 programmieren, nur ein paar Knöpfe drücken.
 
@@ -9,8 +9,8 @@ programmieren, nur ein paar Knöpfe drücken.
 ## Was du brauchst
 
 - Einen Windows-PC mit Bluetooth
-- Die GlycoSole-Sohle mit Strom (USB-Kabel oder Akku)
-- Den Programm-Ordner (enthält `glycosole_recorder.py` und `start_glycosole.bat`)
+- Die GlucoSole-Sohle mit Strom (USB-Kabel oder Akku)
+- Den Programm-Ordner (enthält `glucosole_recorder.py` und `start_glucosole.bat`)
 
 ---
 
@@ -36,7 +36,7 @@ vorbereitet ist, überspring diesen Teil und geh direkt zu Teil B.
 Strom anstecken (USB oder Akku). Kurz warten, bis sie hochgefahren ist.
 
 ### 2. Programm starten
-Doppelklick auf **`start_glycosole.bat`**. Es geht ein Fenster mit einer Fuß-Grafik
+Doppelklick auf **`start_glucosole.bat`**. Es geht ein Fenster mit einer Fuß-Grafik
 und Kurven auf.
 
 ### 3. Verbinden (passiert von selbst)

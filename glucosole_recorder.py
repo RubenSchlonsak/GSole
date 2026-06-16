@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-GlycoSole Recorder
+GlucoSole Recorder
 ==================
 Live-Visualisierung und Aufnahme der 6 Sohlen-Sensoren (resistiv + kapazitiv)
 vom ESP32-S3 ueber BLE.
@@ -17,7 +17,7 @@ Installation:
     (tkinter ist bei Standard-Python unter Windows bereits dabei)
 
 Start:
-    python glycosole_recorder.py
+    python glucosole_recorder.py
 
 CSV-Format (Long, eine Zeile pro Paket, da R und C versetzt ankommen):
     iso_time, t_ms, type(R/C), seq, s1..s6
@@ -48,7 +48,7 @@ import tkinter as tk
 from tkinter import ttk, filedialog
 
 # ── Konfiguration ─────────────────────────────────────────
-DEVICE_NAME = "GlycoSole-Pressure"
+DEVICE_NAME = "GlucoSole-Pressure"
 SERVICE_UUID = "6f000001-b5a3-f393-e0a9-e50e24dcca9e"
 DATA_UUID   = "6f000002-b5a3-f393-e0a9-e50e24dcca9e"
 CMD_UUID    = "6f000003-b5a3-f393-e0a9-e50e24dcca9e"
@@ -227,7 +227,7 @@ def start_ble_thread():
 class App:
     def __init__(self, root):
         self.root = root
-        root.title("GlycoSole Recorder")
+        root.title("GlucoSole Recorder")
         root.geometry("1180x680")
         root.minsize(960, 560)
         self.map_source = tk.IntVar(value=0)            # 0=resistiv, 1=kapazitiv
